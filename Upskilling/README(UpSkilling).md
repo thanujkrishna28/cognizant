@@ -23,7 +23,7 @@
 
 ## Program Overview
 
-**Digital Nurture 5.0** is Cognizant's internal upskilling initiative designed to elevate DotNet Full Stack Engineers (FSE) with a comprehensive, hands-on curriculum spanning frontend, database, and backend technologies. The program is self-paced, driven by open-source learning resources, and is expected to be completed in **3 weeks**.
+**Digital Nurture 5.0** is Cognizant's internal upskilling initiative designed to elevate DotNet Full Stack Engineers (FSE) with a comprehensive, hands-on curriculum spanning frontend, database, and backend technologies. This document is intended for the Cognizant team in the process of the Digital Nurture 5.0 — DotNet FSE Upskilling Program. The program is self-paced, driven by open-source learning resources, and is expected to be completed in **3 weeks**.
 
 \---
 
@@ -70,7 +70,7 @@ Digital Nurture 5.0
 |🗂️ **Stay Organized**|Track progress with calendars, to-do lists, and reminders|
 |🧑‍💻 **Active Learning**|Engage through hands-on exercises; practice coding and problem-solving regularly|
 
-> \*\*Disclaimer:\*\* Cognizant does not claim ownership or responsibility for the external content or reference links provided. Candidates are free to use additional sources beyond what is listed here.
+> \*\*Disclaimer:\*\* For the Cognizant team participating in the Digital Nurture 5.0 — DotNet FSE Upskilling Program, please note that Cognizant does not claim ownership or responsibility for the external content or reference links provided. Candidates are free to use additional sources beyond what is listed here.
 
 \---
 
@@ -357,14 +357,14 @@ Click the **Download** button on the repository page to get the exercise files.
 
 ## Assessment \& Certification
 
-Upon completing all three modules, learners will undertake a **Skill Based Assessment (SBA)** covering all topics from the Upskilling Learning Program.
+Upon completing all three modules, learners in the Cognizant Digital Nurture 5.0 — DotNet FSE Upskilling Program will undertake a **Skill Based Assessment (SBA)** covering all topics from the Upskilling Learning Program.
 
 |Stage|Description|
 |-|-|
 |Module Quizzes|One quiz per topic/module to validate understanding|
 |Final SBA|Comprehensive assessment covering all modules|
 
-> Complete all module quizzes before attempting the final SBA. Good luck! 🎉
+
 
 
 
