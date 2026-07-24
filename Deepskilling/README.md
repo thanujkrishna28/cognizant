@@ -2,9 +2,10 @@
 
 > **Cognizant Deep Skilling Program** | Angular Track | 7 Weeks
 
-[![Weeks Completed](https://img.shields.io/badge/Weeks%20Completed-3-brightgreen)](#)
-[![Modules](https://img.shields.io/badge/Modules-7-blue)](#)
+[![Weeks Completed](https://img.shields.io/badge/Weeks%20Completed-7%2F7-brightgreen)](#)
+[![Modules](https://img.shields.io/badge/Modules-12-blue)](#)
 [![Track](https://img.shields.io/badge/Track-DotNet%20FSE-orange)](#)
+[![Status](https://img.shields.io/badge/Status-All%20Weeks%20Done-success)](#)
 
 ---
 
@@ -12,7 +13,7 @@
 
 This repository contains all hands-on exercise solutions for Cognizant's **Digital Nurture 5.0 Deep Skilling** program (DotNet Full Stack Engineer — Angular Track).
 
-The program spans **7 weeks** covering engineering concepts, backend development, microservices, and frontend with Angular.
+The program spans **7 weeks** covering engineering concepts, backend development, microservices, Angular frontend, DevOps, and containerization.
 
 ---
 
@@ -42,9 +43,31 @@ Deepskilling/
 │       ├── 01-CRUD-RestApi/
 │       ├── 02-Swagger-WebApi/
 │       └── 03-JWT-Auth-WebApi/
-└── Week-03/
-    └── 07-ASP.NET Core Web API Microservices/
-        └── ASP.NET Core Web API Microservices.pdf
+├── Week-03/
+│   └── 07-ASP.NET Core Web API Microservices/
+│       └── ASP.NET Core Web API Microservices.pdf
+├── week -04/
+│   └── 07-Microservices/
+│       ├── Exercise - 01 - Implement JWT Authentication/
+│       ├── Exercise - 02 - Secure an API Endpoint Using JWT/
+│       └── Exercise - 03 - Add Role-Based Authorization/
+├── Week -05/
+│   └── 08-Angular-v20/
+│       └── student-course-portal/   ← Angular App (Components, Services, Routing, Forms)
+├── Week-06/
+│   ├── 09-Application-Debugging/
+│   │   └── Exercise - 1 to 19/
+│   ├── 10-Version-Control-GIT/
+│   │   └── Exercise - 1 to 5/
+│   └── 11-DevOps-and-CICD/
+│       ├── Important-Commands.md
+│       ├── Learning-Notes.md
+│       └── practice screenshots/
+└── Week-07/
+    └── 12-Containerization-Using-Docker/
+        ├── Docker-Commands.md
+        ├── Learning-Notes.md
+        └── learning & quiz screenshots/
 ```
 
 ---
@@ -71,7 +94,7 @@ Deepskilling/
 
 ---
 
-### ✅ Week 3 — Microservices
+### ✅ Week 3 — Microservices (Concepts)
 
 | # | Module | Topics Covered | Status |
 |---|--------|---------------|--------|
@@ -79,13 +102,37 @@ Deepskilling/
 
 ---
 
-### 🔜 Upcoming Weeks
+### ✅ Week 4 — Microservices (Hands-on)
 
-| Week | Modules |
-|------|---------|
-| Week 4–5 | Angular (Components, Directives, Pipes, Forms, Services, Routing) |
-| Week 6 | RxJS, HTTP Client, State Management with NgRx |
-| Week 7 | Git, DevOps/CI-CD, Docker, Agile, Gen AI Fundamentals |
+| # | Module | Topics Covered | Status |
+|---|--------|---------------|--------|
+| 7 | **Microservices — JWT & Role-Based Auth** | JWT Authentication in ASP.NET Core, Securing API Endpoints, Role-Based Authorization | ✅ Done |
+
+---
+
+### ✅ Week 5 — Angular
+
+| # | Module | Topics Covered | Status |
+|---|--------|---------------|--------|
+| 8 | **Angular v20** | Components, Data Binding, Directives, Pipes, Services, Routing, HTTP Client, Forms, RxJS | ✅ Done |
+
+---
+
+### ✅ Week 6 — Debugging, Git & DevOps
+
+| # | Module | Topics Covered | Status |
+|---|--------|---------------|--------|
+| 9  | **Application Debugging** | Chrome DevTools, VS Code Debugger, Breakpoints, Call Stack, Source Maps (19 exercises) | ✅ Done |
+| 10 | **Version Control with Git** | Init, Clone, Branching, Merging, Pull Requests, Gitflow (5 exercises) | ✅ Done |
+| 11 | **DevOps & CI/CD** | Jenkins, GitHub Actions, GitLab CI/CD, CircleCI, Pipeline concepts | ✅ Done |
+
+---
+
+### ✅ Week 7 — Containerization
+
+| # | Module | Topics Covered | Status |
+|---|--------|---------------|--------|
+| 12 | **Containerization with Docker** | Docker Commands, Dockerfile, Docker Compose, Volumes, Networking, Kubernetes intro | ✅ Done |
 
 ---
 
@@ -99,8 +146,8 @@ Deepskilling/
 | Architecture | Microservices |
 | Database | SQL Server |
 | Testing | NUnit, Moq |
-| Frontend *(upcoming)* | Angular 20 |
-| DevOps *(upcoming)* | Docker, GitHub Actions |
+| Frontend | Angular 20 |
+| DevOps | Docker, GitHub Actions |
 | Auth | JWT Bearer Tokens |
 | Documentation | Swagger / OpenAPI |
 
@@ -154,12 +201,48 @@ Full REST API lifecycle:
 - CORS, Serilog logging
 
 ### Module 7 — Microservices Architecture
-Decomposing monoliths:
+Decomposing monoliths into independent services:
 - Microservices vs Monolith tradeoffs
 - HTTP / Messaging / gRPC inter-service communication
 - Service Discovery, Database-per-service pattern
+- JWT Authentication & Role-Based Authorization in microservices
 - Rolling updates, Blue-green deployments
-- CI/CD with GitHub Actions / Azure DevOps, Docker & Kubernetes basics
+
+### Module 8 — Angular (v20)
+Building dynamic web applications:
+- Components, Data Binding (Property, Event, Two-way)
+- Structural Directives (`*ngIf`, `*ngFor`), Custom Directives & Pipes
+- Template-driven & Reactive Forms with validation
+- Dependency Injection, Services
+- Routing, Lazy Loading, Route Guards
+- HTTP Client with Observables & RxJS operators
+
+### Module 9 — Application Debugging
+Practical debugging with modern tools:
+- Chrome DevTools: DOM Inspection, Breakpoints, Call Stack, Network tab
+- VS Code Debugger: `launch.json`, Watches, Source Maps
+- Angular/TypeScript-specific debugging strategies (19 exercises)
+
+### Module 10 — Version Control with Git
+Full Git workflow:
+- Init, Clone, Add, Commit, Status, Log
+- Branching, Merging, Conflict Resolution
+- Remote repos: Push, Pull, Fetch
+- Fork & Pull Request workflow, Gitflow (5 exercises)
+
+### Module 11 — DevOps & CI/CD
+Continuous delivery practices:
+- DevOps culture, goals and key practices
+- CI vs CD — differences and benefits
+- Pipeline tools: Jenkins, GitHub Actions, GitLab CI/CD, CircleCI
+
+### Module 12 — Containerization with Docker
+Packaging and running containerized applications:
+- Core commands: `run`, `ps`, `stop`, `rm`, `images`, `pull`, `exec`
+- Dockerfile creation, image layers, build context
+- Docker Compose for multi-container setups
+- Volumes, data persistence, networking
+- Kubernetes orchestration overview
 
 ---
 
@@ -172,6 +255,7 @@ Decomposing monoliths:
 | VS Code | Angular / Lightweight Editing | [Download](https://code.visualstudio.com/download) |
 | Postman | API Testing | [Download](https://www.postman.com/downloads/) |
 | Docker Desktop | Containerization | [Download](https://www.docker.com/products/docker-desktop/) |
+| Node.js + Angular CLI | Angular Development | [Download](https://nodejs.org/) |
 
 ---
 
@@ -183,10 +267,13 @@ Decomposing monoliths:
 - [x] Week 1 — NUnit & Moq
 - [x] Week 2 — Entity Framework Core 8
 - [x] Week 2 — ASP.NET Core Web API
-- [x] Week 3 — Microservices Architecture
-- [ ] Week 4–5 — Angular
-- [ ] Week 6 — RxJS & NgRx State Management
-- [ ] Week 7 — Git, Docker, DevOps, Agile, Gen AI
+- [x] Week 3 — Microservices Architecture (Concepts)
+- [x] Week 4 — Microservices (JWT Auth, Role-Based Authorization)
+- [x] Week 5 — Angular (Components, Services, Routing, Forms, HTTP)
+- [x] Week 6 — Application Debugging (19 Exercises)
+- [x] Week 6 — Version Control with Git (5 Exercises)
+- [x] Week 6 — DevOps & CI/CD
+- [x] Week 7 — Containerization with Docker
 - [ ] Final Knowledge-Based Assessment (KBA)
 
 ---
@@ -207,4 +294,4 @@ Decomposing monoliths:
 
 ---
 
-*Last updated: July 2026 — Weeks 1–3 complete*
+*Last updated: July 2026 — All 7 Weeks Complete 🎉*
